@@ -1,2 +1,0 @@
-# jzsanc
-website
