@@ -1,26 +1,51 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-{% for post in paginator.posts %}
+<head>
+    <meta charset='utf-8'>
+    <title>
+         
+            joshua blog &mdash; the bestest blog ever
+        
+    </title>
+
+    
+        <link rel='stylesheet' href='http://localhost:4000/assets/css/syntax.css' type='text/css'>
+    
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+
+<body>
+    <header>
+    <h1><a href='http://localhost:4000/'>joshua blog</a></h1>
+</header>
+<a href='http://localhost:4000/'> Home</a> | <a href='http://localhost:4000/about/'>About </a> | <a href='http://localhost:4000/contact/'> Contacts</a> | <a href='http://localhost:4000/archive/'> Archive</a> 
+<hr>
+
+
+    
 <section>
   <h2>
-    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      {{ post.title }}
+    <a href='http://localhost:4000/2025/03/03/jekyll-true-minimal-theme.html' title='test'>
+      test
     </a>
   </h2>
   
-  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
+  <p>True minimal theme is extremely lightweight and ascetic jekyll theme.
+</p>
 </section>       
-{% endfor %}
 
-{% if paginator.previous_page %}
-<a href='{{ site.url }}{{ paginator.previous_page_path }}'>Previous</a>
-{% endif %}
 
-&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;
 
-{% if paginator.next_page %}
-<a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
-{% endif %}
 
+&mdash; 1 of 1 &mdash;
+
+
+
+
+<hr>
+    <p><small> <i>Build with <a href="https://jekyllrb.com/">Jekyll</a> and  <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme</a></i> </small></p>
+</body>
+</html>
