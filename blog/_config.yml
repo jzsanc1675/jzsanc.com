@@ -13,6 +13,7 @@ kramdown:
   syntax_highlighter: rouge
 
 plugins:
+  - jekyll-paginate
   - jekyll-paginate-v2
 paginate: 10
 paginate_path: /page-:num
