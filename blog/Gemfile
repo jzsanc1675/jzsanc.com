@@ -1,2 +1,2 @@
-source "https:gem 'jekyll-paginate', '~> 1.1'//rubygems.org"
+source "https://rubygems.org"
 gemspec
